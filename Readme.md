@@ -17,6 +17,6 @@ _**The architecture was deep and homogenous with a convolutional layer followed 
 
 _**The images were all in jpeg format and the labels or classes were the corresponding folder names inside which the images were stored. The reason for storing the data this way was because the API used for building the CNN is Keras. Keras provides easy definition of data and usage. The API provides the flexibility of using the path in which the data is stored in the program and the model trains by fetching the image from the path. Keras uses the folder names as labels. The images were a mix of grayscale and color images. The images were converted to grayscale to establish a common baseline for the images.**_
 
-_**Checkout the <a href="http://nbviewer.jupyter.org/github/hemavakade/CNN-for-Image-Classification/tree/master/">nbviewer link</a> of this repo. The plots might render because I have used Plotly API.**_
+_**Checkout the <a href="http://nbviewer.jupyter.org/github/hemavakade/CNN-for-Image-Classification/tree/master/">nbviewer link</a> of this repo. The plots might not render because I have used Plotly API.**_
 
 _**The grayscale images used in the project can be downloaded from google drive using <a href = "https://drive.google.com/open?id=0B_XLKgUiu2cNRkJQUXBSR09CWHM">this link</a>**_
