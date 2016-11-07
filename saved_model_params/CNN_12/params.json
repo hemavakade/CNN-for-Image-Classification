@@ -1,0 +1,1 @@
+{"metrics": ["loss", "acc", "val_loss", "val_acc"], "nb_epoch": 50, "nb_sample": 10177, "verbose": 1, "do_validation": true}
