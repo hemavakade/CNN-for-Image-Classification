@@ -17,7 +17,7 @@ _**The architecture was deep and homogenous with a convolutional layer followed 
 
 _**The images were all in jpeg format and the labels or classes were the corresponding folder names inside which the images were stored. The reason for storing the data this way was because the API used for building the CNN is Keras with a Tensorflow backend. Keras provides easy definition of data and usage. The API provides the flexibility of using the path in which the data is stored in the program and the model trains by fetching the image from the path. Keras uses the folder names as labels. The images were a mix of grayscale and color images. The images were converted to grayscale to establish a common baseline for the images.**_
 
-_**The neural network was run on CUDA enabled AWS g2 instance. The data was small enough to be stored on the GPU memory. The network took approx. 4 hours to train and the model weights of the model with the least validation loss were saved. The model weights were later loaded and used for predicting the classes of the test data. **_
+_**The neural network was run on CUDA enabled AWS g2 instance. The data was small enough to be stored on the GPU memory. The network took approx. 4 hours to train and the model weights of the model with the least validation loss were saved. The model weights were later loaded and used for predicting the classes of the test data.**_
 
 _**Checkout the <a href="http://nbviewer.jupyter.org/github/hemavakade/CNN-for-Image-Classification/tree/master/">nbviewer link</a> of this repo. The plots might not render when the notebooks are viewed on Github because I have used Plotly API.**_
 
